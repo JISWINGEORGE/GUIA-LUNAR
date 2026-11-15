@@ -1,0 +1,13 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/api/horizons",
+      "destination": "https://ssd.jpl.nasa.gov/api/horizons.api"
+    },
+    {
+      "source": "/api/lola/:path*",
+      "destination": "https://pgda.gsfc.nasa.gov/data/LOLA_20mpp/:path*"
+    }
+  ]
+}
